@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.foomo.org" xsi:schemaLocation="http://www.foomo.org http://www.foomo.org/foomo/modules/Foomo.Flash/schemas/project.xsd">
+	<id>org.foomo.zugspitze.services.logger</id>
+	<group>org.foomo.zugspitze.services</group>
+	<version>alpha-1.0.1</version>
+	<type>Library Project</type>
+	<name>Logging Service</name>
+	<description>Includes the logger service</description>
+	<exclude>false</exclude>
+	<dependencies>
+		<id>org.foomo.core</id>
+		<id>org.foomo.rpc</id>
+		<id>org.foomo.zugspitze.core</id>
+		<id>org.foomo.zugspitze.rpc</id>
+	</dependencies>
+</config>
