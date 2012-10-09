@@ -50,7 +50,7 @@ package org.foomo.zugspitze.services.logger
 		/**
 		 *
 		 */
-		public static var defaultEndPoint:String = "http://bognertv.radact.interact.com/foomo/modules/Foomo.Zugspitze/services/logger.php/Foomo.Services.RPC/serve";
+		public static var defaultEndPoint:String = "/foomo/modules/Foomo.Zugspitze/services/logger.php/Foomo.Services.RPC/serve";
 
 		//-----------------------------------------------------------------------------------------
 		// ~ Constructor
@@ -81,7 +81,8 @@ package org.foomo.zugspitze.services.logger
 		/**
 		 *
 		 */
-		public static function get defaultInstance():LoggerProxy		{
+		public static function get defaultInstance():LoggerProxy
+		{
 			if (!_instance) _instance = new LoggerProxy(defaultEndPoint);
 			return _instance;
 		}
